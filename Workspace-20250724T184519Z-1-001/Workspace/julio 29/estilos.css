@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.item {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 { background: deeppink; }
+.item2 { background: orange; }
+.item3 { background: mediumseagreen; }
+.item4 { background: dodgerblue; }
+.item5 { background: purple; }
+.item6 { background: gold; }
