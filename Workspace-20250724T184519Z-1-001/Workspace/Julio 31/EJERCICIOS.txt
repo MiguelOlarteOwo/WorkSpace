@@ -1,0 +1,47 @@
+EJERCICIO 1
+
+1. Politécnico Colombiano Jaime Isaza Cadavid
+https://www.politecnicojic.edu.co/
+https://www.politecnicojic.edu.co/images/fotos/2025/becas-jovenes-pa-lante-antioquia.webp
+.progress-bar
+
+2. Universidad Nacional de Colombia
+https://unal.edu.co/
+https://unal.edu.co/fileadmin/imagenes-home/Internas/patrimonio03.jpg
+.unal-header
+
+3. Universidad EAFIT
+https://www.eafit.edu.co/
+https://universidadeafit.widen.net/content/f14ce09a-f792-40f6-8f10-20a182e3ed99/web/tienda-universitaria-eafit.jpg?crop=yes&k=c&w=448&h=300&itok=C6ClwVj8
+.banner-image
+
+4. Universidad de Antioquia
+https://www.udea.edu.co/
+https://www.udea.edu.co/wps/wcm/connect/udea/a2c262b1-e14e-468e-a065-d0cc53cde817/quiero-estudiar-udea.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_L8L8H8C0LODDC0A6SSS2AD2GO4-a2c262b1-e14e-468e-a065-d0cc53cde817-pwfOd.V
+.card-img-top
+
+5. MinCiencias (Ministerio de Ciencia, Tecnología e Innovación de Colombia)
+https://minciencias.gov.co/
+https://minciencias.gov.co/sites/default/files/encabezado_convocatorias.png
+.field__item
+
+
+EJERCICIO 2
+
+
+1. Politécnico Colombiano Jaime Isaza Cadavid
+Página web: https://www.politecnicojic.edu.co/
+<link rel="stylesheet" href="/templates/shaper_helixultimate/css/bootstrap.min.css">
+
+2. Universidad de Antioquia
+Página web: https://www.udea.edu.co/
+<link rel="stylesheet" href="/wps/wcm/connect/udea/8e67a84f-19f4-44ee-95a0-51c8de3506cb/bootstrap.min.css">
+
+3. Universidad Nacional de Colombia
+Página web: https://unal.edu.co/
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+
+4. Universidad EAFIT
+Página web: https://www.eafit.edu.co/
+<link href="/Style%20Library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
