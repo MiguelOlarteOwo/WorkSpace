@@ -1,0 +1,91 @@
+body {
+            background-color: #FFF8E1;
+        }
+        .navbar {
+            background-color: #F57C00 !important;
+        }
+        .navbar .nav-link, .navbar-brand {
+            color: #FFFFFF !important;
+        }
+        .dropdown-menu {
+            background-color: #FFFDE7;
+        }
+        .dropdown-item {
+            color: #333333;
+        }
+        .dropdown-item.active, .dropdown-item:active {
+            background-color: #FFD54F;
+            color: #5D4037;
+        }
+        .card.special {
+            background-color: #FFE0B2;
+            border: 2px solid #FFD54F;
+        }
+        .card.formulario {
+            background-color: #FFF3E0;
+        }
+        .logo {
+            max-width: 120px;
+        }
+        footer {
+            background-color: #F57C00;
+            color: #FFFFFF;
+        }
+        .border-activo {
+            border: 2px solid #FFD54F !important;
+        }
+        
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #F57C00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    content: '';
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-top: 0.25em solid #fff;
+    border-right: 0.25em solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%) rotate(-135deg);
+}
+.carousel-control-next-icon::after {
+    transform: translate(-40%, -50%) rotate(45deg);
+}
+
+/* Personalizar los indicadores del carrusel */
+.carousel-indicators [data-bs-target] {
+    background-color: #F57C00;      /* Color naranja corporativo */
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #FFD54F;      /* Borde amarillo suave */
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.carousel-indicators .active {
+    background-color: #FFD54F;      /* Amarillo suave para el activo */
+    border: 2px solid #F57C00;      /* Borde naranja para el activo */
+    opacity: 1;
+}
+
+.carousel-img {
+    width: 400px;        /* Ancho fijo */
+    height: 300px;       /* Alto fijo */
+    object-fit: cover;   /* Recorta la imagen para que llene el espacio sin deformarse */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
