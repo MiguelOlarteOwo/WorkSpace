@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(165, 154, 154);
+}
+
+
+.tabla {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+th, tr {
+    border: 2px solid black;
+}
+
+.centro {
+    text-align: center;
+}
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+.boton {
+    border: 0px;
+}
+
+.fila {
+    background-color: rgb(46, 84, 167);
+}
+
+#titulo {
+    color: rgb(120, 14, 219);
+}
+
+#pregunta {
+    color: rgb(10, 37, 190);
+}
+p {
+    color: rgb(31, 51, 165);
+}
+
+#mensaje {
+    color: orangered;
+}
