@@ -1,0 +1,15 @@
+useState en React sirve para guardar y manejar valores que cambian dentro de un componente. Funciona así:
+
+Primero defines un valor inicial, por ejemplo un número, un texto, un booleano o incluso una lista.
+
+React te da dos cosas:
+
+-El valor actual del estado.
+
+-Una función para actualizar ese valor.
+
+Cuando llamas a esa función y cambias el estado, React vuelve a dibujar el componente en pantalla con el nuevo valor.
+
+Cada componente tiene su propio estado independiente, y cada vez que cambia, se vuelve a renderizar solo ese componente.
+
+En pocas palabras: useState es como una caja donde guardas un dato que puede cambiar, y cada vez que lo actualizas, React vuelve a mostrar el componente con el dato nuevo.
